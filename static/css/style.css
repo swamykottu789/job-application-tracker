@@ -1,0 +1,52 @@
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dashboard-card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.card-header {
+    background-color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.table th {
+    background-color: #f1f3f5;
+}
+
+.btn {
+    border-radius: 6px;
+}
+
+form p {
+    margin-bottom: 18px;
+}
+
+form label {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
